@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-img">
+                <img src="https://via.placeholder.com/150" alt="Profile Picture" id="profile-pic">
+            </div>
+            <h1 class="name">John Doe</h1>
+            <h2 class="title">Software Developer</h2>
+            
+            <div class="contact-info">
+                <ul>
+                    <li><i class="fas fa-envelope"></i> john.doe@example.com</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-globe"></i> www.johndoe.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> San Francisco, CA</li>
+                </ul>
+            </div>
+            
+            <div class="skills-section">
+                <h3>Skills</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="section">
+                <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
+                <p>Passionate software developer with 5+ years of experience building scalable web applications. Dedicated to writing clean, maintainable code and learning new technologies to solve complex problems.</p>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior Frontend Developer</h3>
+                            <h4>Tech Solutions Inc.</h4>
+                            <p>Lead the frontend development of the company's core product using modern JavaScript frameworks. Improved performance by 30% and mentored junior developers.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Web Developer</h3>
+                            <h4>Creative Agency</h4>
+                            <p>Developed responsive websites for various clients. Collaborated closely with designers to implement pixel-perfect user interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2014 - 2018</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <h4>University of Technology</h4>
+                            <p>Graduated with Honors. Focus on web technologies and software engineering.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Interactive button handled by JS -->
+            <button id="print-btn" class="print-btn"><i class="fas fa-print"></i> Print Resume</button>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
